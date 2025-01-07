@@ -11031,3 +11031,19 @@ body {
       padding: 10px 20px;
   }
 }
+
+.animated-slide-up {
+  position: relative;
+  animation: slide-up 1s ease-out forwards;
+}
+
+@keyframes slide-up {
+  from {
+      transform: translateY(50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
